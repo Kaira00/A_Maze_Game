@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">AMazeGameByArielD</string>
+
+    <!--Used in amaze-->
+    <string name="welcome">Welcome to the Maze</string>
+    <string name="skillLevel">Please choose a skill level: </string>
+    <string name="easy">easy </string>
+    <string name="hard">HARD </string>
+    <string name="generationAl">Please choose a maze generation algorithm: </string>
+    <string-array name="builderchoice">
+        <item>DFS</item>
+        <item>Prim</item>
+        <item>Kruskal</item>
+    </string-array>
+    <string name="playingmode">Please choose a playing mode: </string>
+    <string-array name="mode">
+        <item>manual</item>
+        <item>animation: WallFollower</item>
+        <item>animation: Wizard</item>
+    </string-array>
+    <string name="rooms">Do you want rooms in the maze? </string>
+    <string-array name="room">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string name="revisit"> Revisit </string>
+    <string name="explore">Explore</string>
+
+    <!--Used in generating-->
+    <string name="generating_maze">Generating A Maze . . . </string>
+    <string name="progress">0</string>
+    <string name="percent">%</string>
+
+    <!--Used in play_animation-->
+    <string name="RemainingEnergy">Remaining Energy: </string>
+    <string name="RemainingEnergynum"> 2000 </string>
+    <string name="show_map">Show Map</string>
+    <string name="hide_map">Hide Map</string>
+    <string name="show_solution">Show Solution</string>
+    <string name="hide_solution">Hide Solution</string>
+    <string name="show_walls">Show Walls</string>
+    <string name="hide_walls">Hide Walls</string>
+    <string name="pause">Pause</string>
+    <string name="start">Start</string>
+    <string name="Success">Success</string>
+    <string name="Failure">Failure</string>
+
+    <!--Used in play_manually extends play_animation-->
+    <string name="up">up</string>
+    <string name="down">down</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    <string name="JUMP">JUMP</string>
+
+    <!--Used in finish-->
+    <string name="Won">You Won!</string>
+    <string name="cong">Congratulations!</string>
+    <string name="restart">Play Again</string>
+
+    <!--Used in finish success extends finish-->
+    <string name="Pl">The length of the chosen path is: </string>
+    <string name="Plnum"> 0 </string>
+    <string name="re">The energy consumption is: </string>
+    <string name="renum"> 0 </string>
+
+    <!--Used in finish fail extends finish-->
+    <string name="lost">Sorry, you lost</string>
+    <string name="restartlost">Try Again</string>
+
+
+</resources>
